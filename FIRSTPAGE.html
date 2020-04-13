@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <title>LOGIN PAGE</title>
+      <link rel="stylesheet" type="text/css" href="FIRSTPAGE.css">
+      <link rel="stylesheet" type="text/css" href="Projectcss.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script>
+            function abc()
+            {
+                var m = document.getElementById("a").value;
+                var p = document.getElementById("b").value;
+                if (m=="test"&&p==1234) {
+                    window.location.href = "Project.html";
+                } else {
+                    alert("Incorrect Username or Password");
+                }
+            }
+        </script>
+       
+    </head>
+    <body style="background: linear-gradient(to right, #b6fbff, #83a4d4);">
+     <center><h1>WELCOME TO INCOMETAX DEPARTMENT</h1></center>
+        <div class="frm"><div class="D">Login</div><br><br> 
+            <input class="in" type="text" name="email" placeholder="Username" id="a"><br><br>
+            <input class="io" type="password" name="password" placeholder="Password" id="b"><br><br>
+            <input class="im" type="submit" name="SUBMIT" value="Login" onclick="abc()">       
+        </div>
+    </body>
+</html>

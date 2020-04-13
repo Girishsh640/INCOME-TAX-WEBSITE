@@ -1,0 +1,47 @@
+.frm
+          { background-color: #153394;
+            width: 500px;
+            height: 500px;
+            margin-left: 30%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            text-transform: uppercase;
+            font-family: Lato, sans-serif;
+            border: 2px solid #fff;
+
+        }
+        .in{
+            border-radius: 20px;
+            height:40px;
+            width: 70%;
+            margin-left: 16%;
+            padding-left:10px;
+            margin-top: 50px;
+        }
+        .io{
+            border-radius: 20px;
+            height:40px;
+            width: 70%;
+            margin-left: 16%;
+            padding-left:10px;
+        }
+        .im{
+            border-radius: 10px;
+            height:40px;
+            width:120px;
+            padding-left:10px;
+            margin-top: 20px;
+            margin-left: 38%;
+           
+        }
+        .D{
+            margin-left: 35%;
+            padding-top: 50px;
+            margin-top: 5%;
+            color: white;
+            font-size: 50px;
+        }
+        .im:hover{
+            color: red;
+            background-color: black;
+        }
